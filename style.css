@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(172, 182, 201);
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.navbar {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.navlinks {
+    display: flex;
+    padding:0px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+
+li {
+    padding: 10px;
+    background-color: rgb(227, 245, 69);
+    border-radius: 10px;
+}
+
+.home {
+    margin-right: 10px;
+}
+
+.contact {  
+    margin-left: 10px;
+}
+
+.imagecontainer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: auto;
+}
+
+.pic {
+    width: 150px;
+    height: auto;
+    border-radius: 40%;
+}
+
+.introcontainer {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: auto;
+    width: 500px;
+}
+
+.contactcontainer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
